@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+
+    <link rel="stylesheet" href="~/lib/twitter-bootstrap/css/bootstrap.min.css">
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/twitter-bootstrap/js/bootstrap.bundle.min.js"></script>
+   
+
+</head>
+<body>
+
+    <div class="container mt-5">
+        @RenderBody()
+    </div>
+
+    <footer class="text-center mt-5">
+        &copy; @DateTime.Now.Year My Website
+    </footer>
+</body>
+</html>
+
